@@ -73,12 +73,18 @@
 
 </script><style>
    
-  header.header nav.nav div.logo a {
+  header.header nav.nav ul#menu a span.active {
     color: #C17D3C !important;
   }
 
    
-  header.header nav.nav ul#menu a {
+  header.header nav.nav ul#menu a[href*="cryden"],
+  header.header nav.nav ul#menu a[href*="essays"] {
+    color: inherit;
+  }
+
+  body.post header.header nav.nav ul#menu li a[href*="/cryden/"] span,
+  body.post header.header nav.nav ul#menu li a[href*="/essays/"] span {
     color: #C17D3C !important;
   }
 
@@ -92,8 +98,7 @@
   .about-content a:hover {
     opacity: 0.75;
   }
-</style>
-<meta property="og:url" content="http://localhost:1313/categories/">
+</style><meta property="og:url" content="http://localhost:1313/categories/">
   <meta property="og:site_name" content="Farzand">
   <meta property="og:title" content="Categories">
   <meta property="og:description" content="Notes for self on machines, systems, reliability and life in general">

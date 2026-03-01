@@ -6,8 +6,16 @@
     <description>Recent content on Farzand</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Parameters Are Not Neurons</title>
+      <link>http://localhost:1313/essays/parameters-are-not-neurons/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/essays/parameters-are-not-neurons/</guid>
+      <description>&lt;p&gt;A commonly shared image online (not attached here) compares the number of parameters in a large language model to the number of neurons in the human brain i.e 86 billion. While the intent is to illustrate scale, the analogy is fundamentally flawed&lt;/p&gt;
+&lt;p&gt;A parameter is just a weight, a number stored in a neural network that remains static during inference. A neuron, on the other hand, is a processor in itself.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>On Doing Things Slowly</title>
       <link>http://localhost:1313/essays/on-doing-things-slowly/</link>
