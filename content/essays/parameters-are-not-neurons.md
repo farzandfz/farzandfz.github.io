@@ -1,6 +1,6 @@
 ---
 title: "Parameters Are Not Neurons"
-date: 2025-03-01
+date: 2025-09-06
 draft: false
 tags: ["AI"]
 ---
