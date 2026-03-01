@@ -14,4 +14,4 @@ I'm currently working on **[Cryden](https://cryden.ai/)**, a project focused on 
 Alongside this, I keep a small archive of notes and essays. I write about systems, technology, long-term thinking, and observations about how humans organize and maintain the world around them
 
 <br><br>
-If you'd like to get in touch, you can reach me on **[LinkedIn](https://www.linkedin.com/in/farzandfz/)** or **[X](https://x.com/farzandfz)**
+You can also find me on **[LinkedIn](https://www.linkedin.com/in/farzandfz/)** or **[X](https://x.com/farzandfz)**
