@@ -1,7 +1,7 @@
 ---
 title: "On Doing Things Slowly"
 date: 2024-01-20
-draft: false
+draft: true
 tags: ["productivity", "life"]
 ---
 

@@ -50,3 +50,20 @@
     height: 160px;
   }
 }
+
+/* Site title "Farzand" */
+header.header nav.nav div.logo a {
+  color: #C17D3C !important;
+}
+
+/* Nav links: Cryden & Essays */
+header.header nav.nav ul#menu a {
+  color: #6B7FD7 !important;
+}
+
+/* Body links: LinkedIn, X */
+.about-content a {
+  color: #4A9B7F !important;
+  text-decoration: none;
+  border-bottom: 1px solid #4A9B7F;
+}

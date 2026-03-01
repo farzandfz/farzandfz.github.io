@@ -1,8 +1,13 @@
-baseURL: "https://yoursite.com/"
+baseURL: "https://farzandkhan.github.io"
 languageCode: en-us
-title: "Your Name"
+title: "Farzand"
 theme: PaperMod
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
 paginate: 10
 enableRobotsTXT: true
 buildDrafts: false
@@ -11,9 +16,9 @@ buildExpired: false
 
 params:
   env: production
-  title: "Your Name"
-  description: "Personal site"
-  author: "Your Name"
+  title: "Farzand Khan"
+  description: "Notes for self on machines, systems, reliability and life in general"
+  author: "Farzand Khan"
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
@@ -23,12 +28,18 @@ params:
   ShowShareButtons: false
 
   assets:
+    favicon: favicon/favicon.ico
+    favicon16x16: favicon/favicon-16x16.png
+    favicon32x32: favicon/favicon-32x32.png
+    apple_touch_icon: favicon/apple-touch-icon.png
+    
     customCSS:
       - css/custom.css
+    disableFingerprinting: true  
 
   # Home page = profile/about mode
   homeInfoParams:
-    Title: ""
+    Title: "Farzand Khan"
     Content: ""
 
   # We'll use a custom home layout instead

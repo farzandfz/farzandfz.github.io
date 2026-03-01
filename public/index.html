@@ -6,16 +6,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Your Name</title>
+<title>Farzand</title>
 
-<meta name="description" content="Personal site">
-<meta name="author" content="Your Name">
+<meta name="description" content="Notes for self on machines, systems, reliability and life in general">
+<meta name="author" content="Farzand Khan">
 <link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/favicon/apple-touch-icon.png">
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
@@ -73,26 +73,52 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="http://localhost:1313/">
-  <meta property="og:site_name" content="Your Name">
-  <meta property="og:title" content="Your Name">
-  <meta property="og:description" content="Hi, I’m Your Name 👋 Short intro paragraph about who you are — your background, what you’re working on, and what drives you. Keep it warm and human.
-I’m the founder of Cryden, where we’re building something exciting. I write about the journey of building a business from scratch — the decisions, the mistakes, and the lessons.
-I also write essays on topics I find myself thinking about — ideas around technology, society, creativity, and whatever else captures my attention.">
+</script><style>
+   
+  header.header nav.nav ul#menu a span.active {
+    color: #C17D3C !important;
+  }
+
+   
+  header.header nav.nav ul#menu a[href*="cryden"],
+  header.header nav.nav ul#menu a[href*="essays"] {
+    color: inherit;
+  }
+
+  body.post header.header nav.nav ul#menu li a[href*="/cryden/"] span,
+  body.post header.header nav.nav ul#menu li a[href*="/essays/"] span {
+    color: #C17D3C !important;
+  }
+
+   
+  .about-content a {
+    color: #E74C3C !important;
+    text-decoration: none;
+    border-bottom: 1px solid #E74C3C;
+  }
+
+  .about-content a:hover {
+    opacity: 0.75;
+  }
+</style><meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="Farzand">
+  <meta property="og:title" content="Farzand">
+  <meta property="og:description" content="
+Hi, I’m Farzand Khan A technology consultant based in Bangalore, India. I&#39;m interested in how software interacts with the physical world, especially machines, reliability and real-world systems that people depend on every day I’m currently working on Cryden, a project focused on machine monitoring and predictive maintenance. The goal is simple: help equipment operators understand problems early, before they turn into downtime, cost, and risk Alongside this, I keep a small archive of notes and essays. I write about systems, technology, long-term thinking, and observations about how humans organize and maintain the world around them">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="">
-<meta name="twitter:description" content="Personal site">
+<meta name="twitter:description" content="Notes for self on machines, systems, reliability and life in general">
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Your Name",
+  "name": "Farzand",
   "url": "http://localhost:1313/",
-  "description": "Personal site",
-  "logo": "http://localhost:1313/favicon.ico",
+  "description": "Notes for self on machines, systems, reliability and life in general",
+  "logo": "http://localhost:1313/favicon/favicon.ico",
   "sameAs": [
       
   ]
@@ -103,7 +129,7 @@ I also write essays on topics I find myself thinking about — ideas around tech
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Your Name (Alt + H)">Your Name</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Farzand (Alt + H)">Farzand</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -144,21 +170,26 @@ I also write essays on topics I find myself thinking about — ideas around tech
 <main class="main">
 <div class="about-page">
   <div class="about-photo">
-    <img src="/images/profile.jpg" alt="Your Name" />
+    <img src="/images/farzandkhan.jpg" alt="Farzand Khan" />
   </div>
   <div class="about-content">
-    <h1 id="hi-im-your-name-">Hi, I&rsquo;m Your Name 👋</h1>
-<p>Short intro paragraph about who you are — your background, what you&rsquo;re working on, and what drives you. Keep it warm and human.</p>
-<p>I&rsquo;m the founder of <a href="#">Cryden</a>, where we&rsquo;re building something exciting. I write about the journey of building a business from scratch — the decisions, the mistakes, and the lessons.</p>
-<p>I also write essays on topics I find myself thinking about — ideas around technology, society, creativity, and whatever else captures my attention.</p>
-<p>Feel free to reach out at <strong><a href="mailto:hello@yoursite.com">hello@yoursite.com</a></strong></p>
+    <br>
+<h1 id="hi-im-farzand-khan">Hi, I&rsquo;m Farzand Khan</h1>
+<br>
+A technology consultant based in Bangalore, India. I'm interested in how software interacts with the physical world, especially machines, reliability and real-world systems that people depend on every day
+<p><br><br>
+I&rsquo;m currently working on <strong><a href="https://cryden.ai/">Cryden</a></strong>, a project focused on machine monitoring and predictive maintenance. The goal is simple: help equipment operators understand problems early, before they turn into downtime, cost, and risk
+<br><br>
+Alongside this, I keep a small archive of notes and essays. I write about systems, technology, long-term thinking, and observations about how humans organize and maintain the world around them</p>
+<p><br><br>
+If you&rsquo;d like to get in touch, you can reach me on <strong><a href="https://www.linkedin.com/in/farzandfz/">LinkedIn</a></strong> or <strong><a href="https://x.com/farzandfz">X</a></strong></p>
 
   </div>
 </div>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">Your Name</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">Farzand</a></span> · 
 
     <span>
         Powered by
