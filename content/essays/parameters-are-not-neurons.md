@@ -11,4 +11,4 @@ A parameter, which is a connection weight is a static number, frozen the moment 
 
 The cleaner analogy is between silicon and biology at the level of their atomic units. The transistor is the fundamental unit of a CPU, a switch either on or off. The neuron is the fundamental unit of the brain. But the atoms are not comparable. A transistor is wired to a handful of others in a fixed circuit, while a single neuron connects to thousands. A neuron is far closer to a whole microprocessor than to a switch. Research labs have trained deep networks to reproduce the input output behavior of a single neuron, and needed a network several layers deep to do it
 
-One neuron is already a small deep network  and millions of transistors would be required to replicate what one neuron does naturally, on its own. So, the widely used comparision o social media and AI presentations at workplace is flawed at it's core
+One neuron is already a small deep network  and millions of transistors would be required to replicate what one neuron does naturally, on its own. So, the widely used comparision on social media and AI presentations at workplace is flawed at it's core, but anyway
