@@ -1,7 +1,7 @@
 ---
 title: "Superintelligence Is for Everyone"
 date: 2026-08-06T22:14:27+05:30
-draft: true
+draft: false
 ---
 
 We’ve been hearing about a particular kind of promise for a while now and it has started to become more mainstream recently, especially after LLMs. The promise that an artificial entity referred as super intelligent AI, an upgraded version of artificial general intelligence is a decade if now few years away. One which will have more compute capacity at its disposal than that all of the humanity’s brain processing capacity combined and would not cost us the entire planet to run it. When it’s finally here, the world would be a different place assuming everyone has access to it. Optimists say if widely shared and well governed, it could make humanity more egalitarian by giving everyone access to world class education, healthcare, scientific knowledge and productivity reducing advantage of wealth or geography. But if controlled by few governments or organisations, it could result in concentration of wealth, influence, mass surveillance and may provide decision making power in the hands of few elites. Anyway, we’ll focus mostly on the good part today i.e. the part where everyone becomes a builder, an entrepreneur and the collective productivity capacity of human civilisation multiples, not by little but by orders of magnitude because for the first time in the history as nobody is held back by not knowing how
