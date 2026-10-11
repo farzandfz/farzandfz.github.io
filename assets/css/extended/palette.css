@@ -1,0 +1,79 @@
+/* ── Palette tokens ── */
+:root {
+    --bg: #f7f6f2;
+    --surface: #fdfcfa;
+    --border: #e5e2da;
+    --hover: #f0eee7;
+    --text: #1b1a17;
+    --muted: #7c7870;
+    --accent: #ff9147;
+    --accent-text: #a34a0a;
+    --accent-tint: rgba(255, 145, 71, .16);
+    --accent-contrast: #201503;
+    --ok: #2e7c52;
+    --ok-tint: rgba(46, 124, 82, .12);
+    --err: #b23a2e;
+    --err-tint: rgba(178, 58, 46, .10);
+    --info: #2f6fb3;
+    --info-tint: rgba(47, 111, 179, .12);
+}
+
+:root[data-theme="dark"] {
+    --bg: #151412;
+    --surface: #1c1b18;
+    --border: #2c2a25;
+    --hover: #242320;
+    --text: #eae8e2;
+    --muted: #999488;
+    --accent-text: #ffa76b;
+    --accent-tint: rgba(255, 145, 71, .14);
+    --ok: #68bd92;
+    --ok-tint: rgba(104, 189, 146, .14);
+    --err: #e57263;
+    --err-tint: rgba(229, 114, 99, .12);
+    --info: #6fa8dc;
+    --info-tint: rgba(111, 168, 220, .15);
+}
+
+/* ── Map PaperMod's variables onto the palette ── */
+:root,
+:root[data-theme="dark"] {
+    --theme: var(--bg);
+    --entry: var(--surface);
+    --primary: var(--text);
+    --secondary: var(--muted);
+    --tertiary: var(--border);
+    --content: var(--text);
+    --code-bg: var(--hover);
+    --code-block-bg: #1c1b18;
+}
+
+.list,
+[data-theme="dark"] .list {
+    background: var(--bg);
+}
+
+::selection {
+    background: var(--accent-tint);
+}
+
+/* ── Accent ── */
+.post-content a {
+    color: var(--accent-text);
+    box-shadow: 0 1px 0 var(--accent-text);
+}
+
+.post-entry:hover {
+    border-color: var(--accent);
+}
+
+.paginav a:hover,
+.post-tags a:hover {
+    background: var(--hover);
+}
+
+.top-link,
+.top-link:hover {
+    background: var(--accent);
+    color: var(--accent-contrast);
+}
