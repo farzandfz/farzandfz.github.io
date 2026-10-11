@@ -4,16 +4,14 @@
     color: var(--accent-text) !important;
   }
 
-  /* Also highlight when reading a post inside that section */
-  header.header nav.nav ul#menu a[href*="cryden"],
-  header.header nav.nav ul#menu a[href*="essays"] {
-    color: inherit;
-  }
-
-  body.post header.header nav.nav ul#menu li a[href*="/cryden/"] span,
-  body.post header.header nav.nav ul#menu li a[href*="/essays/"] span {
+  {{- with .Section }}
+  /* Keep the section's nav link highlighted on its posts */
+  header.header nav.nav ul#menu a[href$="/{{ . }}/"] span {
     color: var(--accent-text) !important;
+    font-weight: 500;
+    border-bottom: 2px solid currentColor;
   }
+  {{- end }}
 
   /* Body links: LinkedIn, X */
   .about-content a {
